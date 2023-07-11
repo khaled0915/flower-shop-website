@@ -1,0 +1,67 @@
+/* header part styles */
+.header {
+    background-color: rgba(229, 84, 115, 0.10);
+    width: 2200px;
+    height: 600px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    /* gap: 90px; */
+    justify-content: space-around;
+}
+
+.banner .Rose-pic {
+    width: 450px;
+    margin-bottom: 0px;
+    padding-right: 200px;
+    padding-top: 32px;
+
+    /* width: 635px;
+    height: 800px;
+    flex-shrink: 0; */
+    
+}
+
+.banner-title {
+    color: #272727;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 1000px;
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    width: 634px;
+    flex-direction: column;
+
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #E55473;
+    padding: 10px 30px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.banner-content {
+    padding-left: 200px;
+    padding-top: 100px;
+    gap: 40px;
+
+}
