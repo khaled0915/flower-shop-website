@@ -12,7 +12,6 @@
 
     display: flex;
     align-items: center;
-    /* gap: 90px; */
     justify-content: space-around;
 
 }
@@ -26,9 +25,7 @@
     margin-bottom: 0px;
     padding-right: 200px;
     padding-top: 32px;
-    /* width: 635px;
-    height: 800px;
-    flex-shrink: 0; */
+
 }
 
 .banner-title {
@@ -61,7 +58,7 @@
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
-
+    cursor: pointer;
 }
 
 .banner-content {
@@ -72,102 +69,55 @@
 }
 
 /* main part styles */
-.sec-class {
-    gap: 40px;
-    align-items: center;
-    padding:
-}
 
-.feature-content {
-    align-items: center;
-}
 
-.feature-title {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 30px;
-    padding-top: 100px;
-}
 
-.feature-description {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: smaller;
-}
-
-.images {
+.flower-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #FFF;
-    width: 1000px;
-    height: 500px;
-    gap: 30px;
-    padding-left: 250px;
-    padding-right: 250px;
+    width: auto;
+    height: auto;
 
 }
 
-.feature-img {
-    width: 300px;
-}
-
-.div-1 {
-    padding-left: 200px;
-}
-
-.div-3 {
-    padding-right: 200px;
-}
-
-#flower-1 {
+.flower-pic1 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding-top: 110px;
-    padding-right: 80px;
-    padding-left: 80px;
-    width: 200px;
-    height: 300px;
+    padding: 110px 70px 0px 70px;
 }
 
-#flower-2 {
-    /* width: 380px;
-    height: 370px;
-    flex-shrink: 0; */
-
+.flower-pic2 {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding-top: 110px;
-    padding-right: 80px;
-    padding-left: 80px;
-    width: 200px;
-    height: 300px;
+    padding: 110px 70px 0px 70px;
 }
 
-#flower-3 {
+.flower-pic3 {
     border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-    padding-top: 110px;
-    padding-right: 80px;
-    padding-left: 80px;
-    width: 200px;
-    height: 300px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 110px 70px 0px 70px;
 }
+
+.flower {
+    gap: 10px;
+
+
+}
+
+
 
 .flower-para {
     color: #272727;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif font-size: 20px;
     text-decoration-line: underline;
     font-weight: bolder;
 }
 
 .feature-class {
+    width: auto;
+    height: auto;
     align-items: center;
     justify-content: space-around;
     padding: auto;
@@ -185,7 +135,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 200px; */
+
 }
 
 .btn-primary2 {
@@ -195,6 +145,7 @@
     border-radius: 8px;
     background: #E55473;
     margin-left: 200px;
+    cursor: pointer;
 
 
 }
@@ -248,7 +199,7 @@
     line-height: normal;
 }
 
-.insta-description {
+.-description {
     display: flex;
     flex-direction: column;
     color: rgba(39, 39, 39, 0.60);
@@ -262,7 +213,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 30px ; */
     margin-top: 20px;
     gap: 10px;
 }
@@ -275,78 +225,59 @@
 
 /* Deals styles  */
 
-.deals-section {
+.deals {
     background-image: url("./images/Rectangle\ 9.png");
+    margin: 0px 300px 0px 300px;
     width: 1440px;
     height: 449px;
-    margin-left: 250px;
-    margin-right: 250px;
-    border-radius: 8px;
+    flex-shrink: 0;
+    background-repeat: no-repeat;
 }
 
-.deals-section .-title {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-    /* padding: 150px; */
-    padding-top: 150px;
-}
-
-.deals-discription {
-
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-    align-items: center;
-}
-
-.email-and-btn {
+.deals-container {
     display: flex;
-    /* padding-left: 250px; */
     align-items: center;
     justify-content: space-between;
-    padding: 100px 150px;
-    gap: 10px;
-
+    gap: 20px;
+}
+.form {
+    padding-left: 400px;
+    margin-top: 100px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 100px;
+    width: 600px;
+    height: 50px;
+    flex-shrink: 0;
 }
 
-.input-email {
-    border-radius: 20px;
-    background: #FFF;
-    width: 500px;
-    height: 64px;
+.btn {
+    padding-right: 400px;
+    margin-top: 100px;
+}
+
+.input {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: Lato;
     font-size: 16px;
 }
 
-.sub {
-    padding-right: 100px;
-}
-
 /* social links styles */
 
-.social{
+.social {
     color: white
 }
-.social-section{
+
+.social-section {
     background-color: bisque;
 }
-.social-site{
+
+.social-site {
     text-align: center;
-    /* font-size: larger; */
     margin-right: 25px;
     padding: auto;
-    
+
 }
 
 
@@ -386,3 +317,5 @@ footer {
     font-weight: 400;
     line-height: normal;
 }
+
+
