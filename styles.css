@@ -9,10 +9,15 @@
 }
 
 .banner {
+
     display: flex;
     align-items: center;
     /* gap: 90px; */
     justify-content: space-around;
+
+}
+.off{
+    color: #E55473;
 }
 
 .banner .Rose-pic {
@@ -22,8 +27,9 @@
     padding-top: 32px;
     /* width: 635px;
     height: 800px;
-    flex-shrink: 0; */   
+    flex-shrink: 0; */
 }
+
 .banner-title {
     color: #272727;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -62,3 +68,151 @@
     gap: 40px;
 
 }
+
+/* main part styles */
+.sec-class {
+    gap: 40px;
+    align-items: center;
+    padding:
+}
+
+.feature-content {
+    align-items: center;
+}
+
+.feature-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.feature-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: smaller;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF;
+    width: 1000px;
+    height: 500px;
+    gap: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+
+}
+
+.feature-img {
+    width: 300px;
+}
+
+.div-1 {
+    padding-left: 200px;
+}
+
+.div-3 {
+    padding-right: 200px;
+}
+
+#flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding-top: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 200px;
+    height: 300px;
+}
+
+#flower-2 {
+    /* width: 380px;
+    height: 370px;
+    flex-shrink: 0; */
+
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 200px;
+    height: 300px;
+}
+
+#flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding-top: 110px;
+    padding-right: 80px;
+    padding-left: 80px;
+    width: 200px;
+    height: 300px;
+}
+
+.flower-para {
+    color: #272727;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif font-size: 18px;
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+
+.feature-class {
+    align-items: center;
+    justify-content: space-around;
+    padding: auto;
+
+}
+
+/* offer part styles */
+
+.offer-section {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 200px; */
+}
+
+.-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.offer-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    flex-shrink: 0;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+   
+}
+.offer-content{
+gap: 40px;
+padding-left: 400px;
+}
+.offer .Rose-pic{
+    padding-right: 400px;
+}
+
+
