@@ -1,8 +1,8 @@
 /* header part styles */
 .header {
     background-color: rgba(229, 84, 115, 0.10);
-    width: 2200px;
-    height: 600px;
+    width: auto;
+    height: auto;
     margin: 0px;
     padding: 0px;
     border: 0px;
@@ -332,6 +332,23 @@
 .sub {
     padding-right: 100px;
 }
+
+/* social links styles */
+
+.social{
+    color: white
+}
+.social-section{
+    background-color: bisque;
+}
+.social-site{
+    text-align: center;
+    /* font-size: larger; */
+    margin-right: 25px;
+    padding: auto;
+    
+}
+
 
 /* footer styles */
 footer {
