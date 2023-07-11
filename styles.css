@@ -16,7 +16,8 @@
     justify-content: space-around;
 
 }
-.off{
+
+.off {
     color: #E55473;
 }
 
@@ -60,6 +61,7 @@
     font-family: Lato;
     font-size: 20px;
     font-style: normal;
+
 }
 
 .banner-content {
@@ -186,7 +188,18 @@
     /* gap: 200px; */
 }
 
-.-title {
+.btn-primary2 {
+
+    padding: 20px 43px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    margin-left: 200px;
+
+
+}
+
+.offer-title {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
@@ -205,14 +218,55 @@
     font-family: Lato;
     font-size: 18px;
     font-weight: 400;
-   
+
 }
-.offer-content{
-gap: 40px;
-padding-left: 400px;
+
+.offer-content {
+    gap: 40px;
+    padding-left: 400px;
 }
-.offer .Rose-pic{
+
+.offer .Rose-pic {
     padding-right: 400px;
 }
 
+/* insta section styles*/
 
+.insta-section{
+    padding: 200px ;
+    margin: 50px 0px ;
+
+}
+.insta-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.insta-description {
+    display: flex;
+    flex-direction: column;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+}
+.picture-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 30px ; */
+    margin-top: 20px;
+    gap: 10px;
+}
+.picture{
+    gap: 15px;
+    padding: 30px;
+    
+}
